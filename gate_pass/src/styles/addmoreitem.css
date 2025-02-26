@@ -1,0 +1,114 @@
+.gate-pass-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .gate-pass-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    border: 2px solid #1e88e5;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #1e88e5;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .submit-btn {
+    background: #1e88e5;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    border: none;
+    cursor: pointer;
+    width: auto; /* Set width to auto */
+    min-width: 150px; /* Optional: Set a minimum width */
+    display: block;
+    margin: 0 auto; /* Center the button */
+    text-align: center;
+  }
+
+  .remove-btn{
+    background: #c60a07;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    border: none;
+    cursor: pointer;
+    width: auto; /* Set width to auto */
+    min-width: 150px; /* Optional: Set a minimum width */
+    display: block;
+    margin: 0 auto; /* Center the button */
+    text-align: center;
+}
+
+.add-btn{
+    background: #35be03;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    border: none;
+    cursor: pointer;
+    width: auto; /* Set width to auto */
+    min-width: 150px; /* Optional: Set a minimum width */
+    display: block;
+    margin: 0 auto; /* Center the button */
+    text-align: center;
+}
+  
+  .submit-btn:hover {
+    background: #1565c0;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between buttons */
+}
+
+.remove-btn, .add-btn {
+    background: #c60a07;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    border: none;
+    cursor: pointer;
+    width: auto; /* Set width to auto */
+    min-width: 150px; /* Optional: Set a minimum width */
+    text-align: center;
+}
+
+.add-btn {
+    background: #35be03;
+}

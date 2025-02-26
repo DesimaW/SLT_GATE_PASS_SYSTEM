@@ -1,0 +1,147 @@
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Breadcrumb */
+  .breadcrumb p {
+    font-size: 14px;
+    color: #0275d8;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    color: #003366;
+    font-size: 20px;
+  }
+  
+  .arrow {
+    margin: 0 5px;
+  }
+  
+  .status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .pending {
+    color: #be0000;
+  }
+  
+  /* Back Button */
+  .back-button {
+    background: none;
+    border: none;
+    color: #003366;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Item Details */
+  .details-container {
+    border: 2px solid #ff9800;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    background: #960101;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .item-details-title {
+    font-weight: bold;
+  }
+  
+  .ref-no {
+    font-weight: bold;
+  }
+  
+  .item-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .info-text p {
+    margin: 5px 0;
+  }
+  
+  .item-photo {
+    text-align: center;
+  }
+  
+  .item-photo img {
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+  }
+  
+  .view-photo {
+    display: block;
+    margin-top: 5px;
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Comment Section */
+  .comment-section {
+    margin-bottom: 20px;
+  }
+  
+  .comment-section textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .approve, .reject {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .approve {
+    background: #0275d8;
+    color: white;
+  }
+  
+  .reject {
+    background: #d9534f;
+    color: white;
+  }
+  

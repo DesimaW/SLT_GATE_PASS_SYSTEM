@@ -1,0 +1,94 @@
+.gate-pass-container {
+  width: 80%;
+  margin: 100px auto 20px; /* Added top margin to avoid overlap with navbar */
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.gate-pass-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  border: 2px solid #1e88e5;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: #1e88e5;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:black;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.radio-group input {
+  margin-right: 5px;
+  transform: scale(1.2);
+}
+
+.radio-group label {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.submit-btn {
+  background: #0a62d5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  min-width: 150px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add-btn {
+  background: #008000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  min-width: 150px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background: #1565c0;
+}

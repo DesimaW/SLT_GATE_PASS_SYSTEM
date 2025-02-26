@@ -1,0 +1,127 @@
+/* Container styling */
+.request-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Enables horizontal scrolling for small screens */
+}
+
+/* Title */
+h2 {
+    font-size: 22px;
+    color: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 600px; /* Ensures proper layout on smaller screens */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #003366;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents header text from wrapping */
+}
+
+tr:nth-child(even) {
+    background: #f8f8f8; /* Alternating row colors */
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+
+/* Status Styling 
+.pending-status {
+    color: #ff9800;
+    font-weight: bold;
+}*/
+
+/* Button Styling */
+.details-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+}
+
+.details-button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .request-container {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .request-container {
+        padding: 15px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto; /* Enables scrolling for smaller screens */
+        white-space: nowrap;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .details-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .request-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .details-button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+}

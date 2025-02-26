@@ -1,0 +1,185 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Background image for the whole body */
+  body {
+    background-image: url('/images/bck3.webp'); /* Ensure this is the correct path */
+    background-size: cover;  /* Ensures the background image covers the entire viewport */
+    background-position: center center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-attachment: fixed; /* Optional: Creates a fixed parallax effect */
+    min-height: 100vh;  /* Ensures the background covers the full height of the page */
+    width: 100%;
+    padding: 0;
+  }
+  
+  
+  /* Full-screen container with centered login form */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the login form is vertically centered */
+    width: 100vw;
+    padding: 20px;
+  }
+  
+  /* Adjusted Login Box for Desktop */
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 40%;
+    min-width: 400px;
+    max-width: 550px;
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    color: #1a365d;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Form Elements */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-weight: 600;
+  }
+  
+  /* Static Field */
+  .static-value {
+    padding: 0.75rem;
+    background-color: #edf2f7;
+    border-radius: 6px;
+    color: #2d3748;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  .form-input {
+    width: 100%;
+    padding: 0.85rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.4);
+  }
+  
+  .form-input::placeholder {
+    color: #a0aec0;
+  }
+  
+  /* Login Button */
+  .login-button {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #4299e1;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #3182ce;
+  }
+  
+  .login-button:active {
+    background-color: #2b6cb0;
+  }
+  
+  /* Desktop Optimization */
+  @media (min-width: 1200px) {
+    .login-box {
+      width: 35%;
+      max-width: 600px;
+      padding: 3rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .form-input {
+      font-size: 1.1rem;
+      padding: 1rem;
+    }
+  
+    .login-button {
+      font-size: 1.1rem;
+      padding: 1rem;
+    }
+  }
+  
+  /* Tablet Screens */
+  @media (max-width: 992px) {
+    .login-box {
+      width: 50%;
+    }
+  }
+  
+  /* Mobile Screens */
+  @media (max-width: 768px) {
+    .login-box {
+      width: 80%;
+      padding: 2rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .form-input {
+      padding: 0.75rem;
+    }
+  
+    .login-button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-box {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.3rem;
+    }
+  
+    .form-input {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+    }
+  
+    .login-button {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+    }
+  }
+  

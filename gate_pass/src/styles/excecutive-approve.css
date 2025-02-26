@@ -1,0 +1,70 @@
+.exec-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabs Section */
+.exec-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;    
+}
+
+.exec-tab {
+    background: #e0e0e0;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.exec-tab:hover {
+    background: #d6d6d6;
+}
+
+.exec-tab.active {
+    background: #1e88e5;
+    color: white;
+    font-weight: bold;
+}
+
+/* Table Styles */
+.exec-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.exec-table th,
+.exec-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.exec-table th {
+    background: #f16427;
+    color: white;
+}
+
+/* Details Button */
+.exec-details-button {
+    background: #35cf0b;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.exec-details-button:hover {
+    background: #e64a19;
+}

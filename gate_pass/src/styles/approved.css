@@ -1,0 +1,147 @@
+/* Container Styling */
+.request-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Title */
+h2 {
+    font-size: 22px;
+    color: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Tabs Section */
+.tabs {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.tab {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #003366;
+    background: white;
+    color: #003366;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.tab.active {
+    background: #007bff;
+    color: white;
+    border: none;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 700px; /* Prevents columns from shrinking too much */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #160b56;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Button Styling */
+.details-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+}
+
+.details-button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .request-container {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .request-container {
+        padding: 15px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .details-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .request-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .details-button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .tabs {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

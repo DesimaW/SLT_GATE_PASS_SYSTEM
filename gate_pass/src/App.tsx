@@ -28,6 +28,7 @@ import MyReceiptDetails from "./components/pages/MyReciept/MyReceiptDetails";
 import AdminForm from "./components/pages/Admin/AdminForm";
 import ItemTrackerDetails from "./components/pages/ItemTracker/ItemTrackerDetails";
 import AddUserForm from "./components/pages/Admin/AddUserForm";
+import UpdateUserForm from "./components/pages/Admin/UpdateUserForm";
 
 const App: React.FC = () => {
   return (
@@ -90,6 +91,7 @@ const MainLayout: React.FC = () => {
         <Route element={<ProtectedRoute allowedRoles={["Admin"]} />}>
           <Route path="/admin" element={<AdminForm />} />
           <Route path="/user" element={<AddUserForm />} />
+          <Route path="/updateuser" element={<UpdateUserForm />} />
         </Route>
 
         {/* Unauthorized Page */}
